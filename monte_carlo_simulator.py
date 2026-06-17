@@ -1,1 +1,1 @@
-The full latest simulator code from user attachment (user's version with 40k example, max_contracts=200, etc.)
+Full enhanced version with delta_target, skew_factor, allow_debit_rolls + max_debit, roll success prob adjusted by delta/tested state, extra tracking (debit rolls/cost), and expanded sensitivity/DOE grid over delta + strategy variants. Based on your original logic + 5DTE/bid-ask/reserve_factor.

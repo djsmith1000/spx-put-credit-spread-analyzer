@@ -1,1 +1,1 @@
-Updated README with current portfolio snapshot and tool details
+Updated with new CLI examples for delta/strategy DOE, description of new parameters, and how to compare 13 vs 16 delta with/without capped debit rolls.
