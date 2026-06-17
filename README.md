@@ -1,1 +1,1 @@
-The README content I just wrote in the file
+Updated README with current portfolio snapshot and tool details
