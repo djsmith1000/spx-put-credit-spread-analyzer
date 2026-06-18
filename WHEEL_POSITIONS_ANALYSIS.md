@@ -1,12 +1,13 @@
 # Wheel Strategy Portfolio Summary & Analysis
-**Updated:** 2026-06-18 (IBKR live data) | **Account NAV ~$177k long** | **Target: ~50% allocated to wheel positions** (currently under-allocated)
+**Updated:** 2026-06-18 (IBKR live data, with LEU/ONDS correction) | **Account NAV ~$177k long** | **Target: ~50% allocated to wheel positions** (currently under-allocated)
 
-## Core Philosophy (per user prefs)
-- **Long-term holds / Accumulation**: ABAT (battery recycling bullish), TTI (magnesium thixomolding + EV + Magrathea partnership bullish). These get preferential treatment for rolling/assignment avoidance to maintain exposure.
-- **Opportunistic**: F, SOFI (and future adds). No emotional attachment — prioritize capital preservation, quick rolls/closes, or reassignment decisions based on data. Willing to exit entirely if thesis breaks or losses mount.
-- **Advanced Wheel Mgmt**: Multi-leg (CSP + CC where applicable), rolling based on delta/IV/profit targets (e.g. 50% profit take or roll at 21-30 DTE), factor in vol (IV rank/percentile), news catalysts, technical support levels, portfolio correlation/heat, earnings calendar. Consider opportunistic vs core holds for strike selection and size.
+## Core Philosophy (per user prefs + correction)
+- **Long-term holds / Accumulation** (strong bias to maintain exposure): ABAT (battery recycling bullish), TTI (magnesium thixomolding + EV + Magrathea partnership bullish).
+- **Moderate Hold Interest** (willing to accept assignment and wheel/hold shares moderately; prefer rolls that preserve some exposure over panic closes): LEU (uranium/nuclear thematic, aligns with AI power interest), ONDS (speculative high-vol small-cap).
+- **Opportunistic** (no attachment — prioritize capital preservation, quick closes or flexible exits): F, SOFI (and future adds). Willing to exit entirely if thesis breaks or losses mount.
+- **Advanced Wheel Mgmt**: Multi-leg (CSP + CC where applicable), rolling based on delta/IV/profit targets (e.g. 50% profit take or roll at 21-30 DTE), factor in vol (IV rank/percentile), news catalysts, technical support levels, portfolio correlation/heat, earnings calendar. Differentiate by hold type for strike selection, size, and assignment tolerance.
 - **Risk/Allocation**: Aim for ~half IBKR capital in wheels (diverse underlyings, position sizing by IV & conviction). Use defined-risk where possible or size CSPs conservatively. Monitor overall Greeks exposure, assignment risk, and margin.
-- **Scanning for New**: High liquidity options, IV rank >30-50% preferred for premium, price $5-150, no major earnings in next 2-4 wks or plan around, good volume/OI, diverse sectors from current (avoid over-concentration in materials/EV/auto/fintech). Balance high-IV opportunistic with lower-IV core like SPY/QQQ for stability.
+- **Scanning for New**: High liquidity options, IV rank >30-50% preferred for premium, price $5-150, no major earnings in next 2-4 wks or plan around, good volume/OI, diverse sectors from current. Balance high-IV opportunistic/moderate with lower-IV core like SPY/QQQ for stability.
 
 ## Current Wheel Positions (from IBKR get_account_positions + snapshots)
 
@@ -55,37 +56,54 @@
   - Opportunity: If stock weakens more on news, can roll or add another leg at lower strike for income (opportunistic scaling).
   - Watch: Fintech regulation, member growth, charge-offs, crypto/stablecoin adoption news. YTD weakness may offer better entries for new CSPs.
 
+### 5. LEU (Moderate Hold Interest — Uranium/Nuclear thematic)
+- **No long shares currently**
+- **Short Puts (CSP)**: Short 1x Oct16'26 $160 PUT @AMEX (collected ~$25.75) | Current ~$26.15 | Slight unrealized loss | IV ~88% ann. | Stock ~$189.20 (strong +11% today, YTD -22%), OTM put (good ~$29 buffer), long ~120 DTE. HV ~78% ann., low-moderate IV percentile.
+- **Capital/Status**: Longer-dated CSP on volatile name. Buying power ~$16k. Clean OTM position with solid time value. High liquidity potential.
+- **Analysis & Recs**:
+  - Strong thematic fit (Centrus Energy — uranium enrichment for nuclear/AI data center power; aligns with your AI power/nuclear interest). Moderate hold interest means **prefer to maintain some exposure** if assigned (e.g., sell CCs on shares rather than immediate exit).
+  - OTM with long DTE and high IV: Excellent wheel candidate. Premium collection potential strong over months.
+  - **Recommended Action**: Let ride or roll closer to expiry (or on dips) if premium attractive — roll out/up or adjust to maintain desired delta/exposure. If assigned on a dip, **wheel it**: sell OTM CCs on the long shares to generate income while holding moderately per your interest level. Size (1 contract) fits moderate conviction well.
+  - Watch: Nuclear policy, uranium prices, AI power demand news (significant tailwind potential). High vol supports premium selling; long DTE gives flexibility.
+  - Multi-level potential: Good candidate for adding more puts on weakness or layering CCs post-assignment.
+
+### 6. ONDS (Moderate Hold Interest — Speculative high-vol small-cap)
+- **No long shares currently**
+- **Short Puts (CSP)**: Short 4x Jul17'26 $11 PUT @AMEX (collected ~$0.977 avg) | Current ~$2.22 | **Unrealized loss ~-$499** | IV ~87-92% ann. | Stock ~$9.04 (slightly down today, YTD -7.4%), ITM put (intrinsic ~$1.96), ~29 DTE. Very high HV ~111% ann., low IV percentile. High OI/volume.
+- **Capital/Status**: Short-term CSP now ITM with loss (distress similar to F, but moderate hold changes management). Buying power ~$4.4k.
+- **Analysis & Recs**:
+  - High-vol speculative name (Ondas Holdings — rail/drone/automation tech?). Moderate hold interest: **willing to accept assignment and hold/wheel shares moderately** rather than close at full loss like pure opportunistic.
+  - Currently ITM with premium pressure: Risk of assignment in ~29 days (or sooner if drops more). Loss position but high IV environment offers recovery via premium.
+  - **Recommended Action**: **Prefer roll** (to later expiration/lower strike for net credit or better risk management) **or let assign and immediately wheel** (sell CCs on new long 400 shares to recover via premium and hold per moderate interest). Avoid outright close at large loss unless thesis is fully broken — moderate interest supports giving it a chance through assignment + covered call income. If rolling, target manageable delta/OTM where possible.
+  - Watch: Company-specific news, rail/tech/automation sector catalysts, small-cap/high-vol sentiment. Note: 4-contract size was aggressive for this volatility — consider scaling down on future rolls or adds.
+  - Lesson for moderate-hold names: ITM situations favor assignment + wheel (or patient roll) over panic close, to align with willingness to hold somewhat.
+
 ## Other Notable Positions (Non-Wheel or Related)
 - **SPX Jun24'26 Put Spread** (long 6x 7255p / short 6x 7320p): Defined risk, near expiration (6 DTE), volatile daily P/L (big swings). Manage/roll/close per your SPX analyzer tool. Not core wheel.
-- **LEU Oct16'26 160 PUT** short 1x: Longer dated, perhaps thematic (uranium/nuclear — aligns with your AI power interest?). Check if wheel candidate or hedge.
-- **ONDS Jul17'26 11 PUT** short 4x: Speculative/small, high risk name? Review thesis or close.
 - **Long Stocks**: TSLA (34 sh), TSLR (3023 sh — ? leveraged/related), LLY (1), SGOV (~75k cash equiv for margin/liquidity), LMG (AU small).
-- **Cash/Margin**: Limited cash ~$2.8k + SGOV; wheels use margin/buying power. Target scaling wheels to use ~half total buying power.
+- **Cash/Margin**: Limited cash ~$2.8k + SGOV; all wheels use margin/buying power. Target scaling total wheels to use ~half overall buying power while respecting hold-type differences.
 
-## Overall Recommendations & Action Plan
-1. **Immediate (High Priority)**: Close or aggressively manage the **F Jul $16.5p** — accept loss to protect capital. This is dragging performance and ties up resources in non-core name.
-2. **ABAT**: Roll short $3c calls to preserve long-term exposure. Add to position on dips if conviction high.
-3. **TTI**: Strongest current wheel — let Jul put expire/take profit, actively roll/manage Sep CCs. Consider adding shares + more legs given thematic + profitable base.
-4. **SOFI**: Ride or roll the CSP. Good liquidity; scale opportunistically on weakness but size small.
-5. **Scaling to 50% Allocation**: Current wheel capital at risk modest (~$10-15k effective + margin). With ~$177k NAV, target $80-90k in wheels. Add 2-4 new underlyings with $10-20k each (e.g. 5-10 contracts depending price). Use your SPX analyzer style Monte Carlo for sizing/rolling sims.
-6. **Risk Mgmt**: Track portfolio delta/theta exposure. Avoid correlated adds (e.g. more EV/materials). Set alerts for IV spikes, news, technical breaks. Use 30-delta or lower for CSPs on new names. Earnings avoidance or straddle hedge.
-7. **New Opportunistic/Diverse Wheel Candidates** (scanned via market data + public 2026 wheel lists):
-   - **AMD or NVDA** (High IV ~40%+ rank, AI/semicon cycle strong, liquid weeklies, user familiarity from prior wheels. Opportunistic high-premium; size carefully for vol. ~$150 range good capital efficiency).
-   - **PLTR** (AI/data analytics, high interest/IV, liquid, growth story. Popular in 2026 wheel picks. Opportunistic.)
-   - **SPY or QQQ** (Core/safe wheel for base income + accumulation. Low single-name risk, extremely liquid, "wheel for life" candidate per analysts. Lower IV but consistent premium + dividends. Ideal for larger allocation to hit 50% target stably.)
-   - **XOM or CVX** (Energy, stagflation hedge, high yield + premium, diverse from current holdings. Good for multi-leg wheel.)
-   - Others to scan: HOOD (fintech diversify from SOFI), MARA (crypto high IV but volatile), AAPL (blue chip stability).
-   - **Process for scanning**: Filter liquid options (high OI/volume), IV percentile >30, price/support levels for strikes, upcoming events calendar (earnings.finance.yahoo or IBKR), sector diversification score. Use code/MonteCarlo for expected yield vs risk. I can help analyze specific tickers on request or build scanner tool.
+## Overall Recommendations & Action Plan (Updated with LEU/ONDS)
+1. **Immediate (High Priority)**: Close or aggressively manage the **F Jul $16.5p** — accept loss to protect capital (pure opportunistic). For **ONDS** (moderate hold), prioritize roll or assign+wheel instead of close.
+2. **ABAT/TTI (Long-term)**: Roll short calls (ABAT) or manage CCs (TTI) to preserve exposure. Strongest current setups.
+3. **LEU (Moderate)**: Excellent longer-term wheel — ride/roll OTM CSP. Plan for post-assignment CC wheel if triggered. Thematic alignment strong.
+4. **ONDS (Moderate)**: Manage ITM situation via roll or assign+immediate CC wheel to recover and hold moderately. Avoid F-style close.
+5. **SOFI (Opportunistic)**: Ride or roll CSP flexibly.
+6. **Scaling to 50% Allocation**: Current wheel capital modest. With ~$177k NAV, target $80-90k across all wheel types (differentiated sizing: larger/more patient for long-term & moderate like LEU; smaller/flexible for opportunistic). Add 2-4 new underlyings. Use SPX analyzer-style Monte Carlo for sizing/rolling sims per hold type.
+7. **Risk Mgmt**: Track portfolio delta/theta, correlated moves (e.g., materials for ABAT/TTI; high-vol for ONDS). Set alerts for IV spikes, news, technical breaks. Use hold-type-specific rules (longterm/moderate = bias to rolls/assignment+wheel; opportunistic = faster exits). Earnings avoidance or hedges.
+8. **New Opportunistic/Diverse Wheel Candidates** (scanned via market data + public 2026 wheel lists; consider moderate-hold potential too):
+   - **AMD or NVDA** (High IV AI/semicon, liquid, prior familiarity — opportunistic or moderate).
+   - **PLTR** (AI growth, high interest/IV — opportunistic/moderate).
+   - **SPY or QQQ** (Core stable wheel for base income + accumulation — long-term style ballast to hit 50% target).
+   - **XOM or CVX** (Energy diversification, premium + dividend — moderate or opportunistic).
+   - Others: HOOD (fintech), MARA (crypto high IV), or nuclear-adjacent names to complement LEU.
+   - **Process**: Filter liquid options (high OI/volume), IV percentile >30, price/support for strikes, events calendar, sector diversity, and thematic fit (e.g., nuclear/AI power for moderate holds). I can analyze specific tickers or build enhanced scanner.
 
 ## Next Steps & Tools Built
-- **This doc maintained** as single source of truth for wheel positions (local + github sync).
-- **GitHub Integration**: Added to your trading tools repo (djsmith1000/spx-put-credit-spread-analyzer) as reusable reference and starting point for wheel-specific modules. Can extend with Python wheel_analyzer.py (position tracker, roll simulator, IBKR data pull stubs via ib_insync or TWS API, new candidate screener). Mirrors structure of SPX analyzer (Monte Carlo projections, rolling logic, allocation vs reserves like SGOV).
-- **Future Tools**:
-  - Wheel position dashboard (Lovable.dev or Streamlit) pulling live IBKR data for P/L, approx Greeks, automated roll suggestions based on rules (delta, DTE, profit %, hold/opportunistic flag).
-  - Automated market scanner: high IV rank + liquidity + earnings filter + thematic/opportunistic fit scoring.
-  - Advanced rolling engine: inputs current pos details → suggested actions (expire/roll up-out-down/close/add pyramid).
-- Update this file (local or GitHub) after any trades/rolls or weekly review. Share specific underlyings, roll candidates, or new ideas for deeper IBKR chain analysis or custom recs.
+- **This doc maintained** as single source of truth (local + GitHub sync). Updated with LEU/ONDS as moderate-hold wheels, detailed analysis, recs, and integration into overall plan.
+- **GitHub Integration**: Updated `WHEEL_POSITIONS_ANALYSIS.md` and `wheel_analyzer.py` in djsmith1000/spx-put-credit-spread-analyzer with the correction, new sections for LEU/ONDS, hold-type differentiated logic in the rule engine, and example data including them. The Python scaffold now handles long-term / moderate / opportunistic distinctions in recommendations.
+- **Future Tools**: Extend wheel_analyzer.py with full IBKR integration, BS greeks/delta for precise rolling, Monte Carlo per hold type, earnings/news filters, and dashboard export. Add LEU/ONDS-specific modules (e.g., nuclear catalyst scanner). I can iterate on code or add features on request.
 
-**Disclaimer**: Not financial advice. Options trading involves substantial risk of loss and is not suitable for all investors. Past performance no guarantee. Data snapshot ~Jun 18 2026; verify all live prices, IV, chains, and news in IBKR TWS before acting. Tax implications (Koinly for crypto/options), margin requirements, and personal risk tolerance apply. This is analysis aid only.
+**Disclaimer**: Not financial advice. Options involve substantial risk of loss. Data as of ~Jun 18 2026; verify live in TWS/IBKR before acting. Tax (Koinly), margin, and personal risk tolerance apply. This is analysis and tooling support only.
 
-*Version controlled on GitHub for history, backup, and potential collaboration/extension.*
+*Version controlled on GitHub for history and extension. LEU/ONDS now properly classified per your correction — moderate hold changes management (rolls/assignment+wheel preferred over closes where possible).*
