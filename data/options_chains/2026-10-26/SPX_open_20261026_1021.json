@@ -1,0 +1,56 @@
+{
+  "collection_time": "2026-10-26T10:21:00-04:00",
+  "underlying": "SPX",
+  "spot": 7658.35,
+  "expiration": "20261102",
+  "trading_class": "SPXW",
+  "notes": "Sample data for ~7 DTE weekly. Full chain structure available from get_option_data. Key put snapshots:",
+  "sample_puts": {
+    "7500": {
+      "contract_id": 927879232,
+      "delta": -0.1566,
+      "gamma": 0.001269,
+      "theta": -2.996,
+      "vega": 2.673,
+      "iv_annual": 0.1736,
+      "mid": 15.6659,
+      "bid": 15.5,
+      "ask": 15.7,
+      "volume": 43,
+      "oi": 1810
+    },
+    "7600": {
+      "contract_id": 927879286,
+      "delta": -0.3054,
+      "gamma": 0.002087,
+      "theta": -3.915,
+      "vega": 3.828,
+      "iv_annual": 0.1550,
+      "mid": 33.1536,
+      "bid": 32.2,
+      "ask": 32.5,
+      "volume": 97,
+      "oi": 723
+    },
+    "7650": {
+      "contract_id": 927879308,
+      "delta": -0.4089,
+      "gamma": 0.002456,
+      "theta": -4.039,
+      "vega": 4.218,
+      "iv_annual": 0.1459,
+      "mid": 47.1128,
+      "bid": 46.7,
+      "ask": 46.9,
+      "volume": 101,
+      "oi": 1680
+    }
+  },
+  "other_underlyings": {
+    "NDX_spot": 29051.19,
+    "RUT_spot": 2785.42,
+    "GC_front_month": 4016.8,
+    "CL_front_month": 101.08,
+    "notes": "Option parameters and chains available for all listed instruments. ES and NQ FOP parameters retrieved successfully. Full detailed chain collection for all can be extended similarly. Market open and data available."
+  }
+}
