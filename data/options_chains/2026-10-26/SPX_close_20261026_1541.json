@@ -1,0 +1,10 @@
+{
+  "collection_time": "2026-10-26T15:41:00-04:00",
+  "underlying": "SPX",
+  "spot": 7714.75,
+  "puts": [
+    {"strike": 7650, "expiry": "2026-10-26", "delta": -0.0122, "gamma": 0.00236, "theta": -0.0568, "vega": 0.0148, "iv": 0.323, "bid": 0.05, "ask": 0.1, "mid": 0.075, "volume": 81890, "open_interest": 1957},
+    {"strike": 7675, "expiry": "2026-10-26", "delta": -0.205, "gamma": 0.0400, "theta": -0.819, "vega": 0.125, "iv": 0.163, "bid": 0.8, "ask": 0.85, "mid": 0.825, "volume": 156923, "open_interest": 689},
+    {"strike": 7700, "expiry": "2026-10-26", "delta": -0.980, "gamma": 0.00493, "theta": -0.073, "vega": 0.0237, "iv": 0.211, "bid": 18.7, "ask": 19.0, "mid": 18.85, "volume": 24271, "open_interest": 3489}
+  ]
+}
