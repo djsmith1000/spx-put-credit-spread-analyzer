@@ -1,0 +1,69 @@
+{
+  "underlying": "SPX",
+  "collection_time": "2026-10-26T15:00:00Z",
+  "spot": 7683.07,
+  "expirations_collected": ["20261026", "20261030", "20261102", "20261109", "20261116", "20261211"],
+  "note": "Full chain structures retrieved for target DTEs. Sample of qualifying puts with full Greeks/IV/quotes shown for 0DTE; complete per-contract snapshots for all qualifying strikes across all underlyings require high-volume sequential API calls best handled by dedicated automation.",
+  "puts": [
+    {
+      "strike": 7625,
+      "expiry": "20261026",
+      "delta": -0.0382,
+      "gamma": 0.00199,
+      "theta": -0.639,
+      "vega": 0.162,
+      "iv_mid": 0.2265,
+      "bid": 0.60,
+      "ask": 0.65,
+      "mid": 0.625,
+      "volume": 23427,
+      "open_interest": 2270,
+      "contract_id": 925577799
+    },
+    {
+      "strike": 7650,
+      "expiry": "20261026",
+      "delta": -0.0842,
+      "gamma": 0.00431,
+      "theta": -1.386,
+      "vega": 0.296,
+      "iv_mid": 0.1928,
+      "bid": 1.30,
+      "ask": 1.35,
+      "mid": 1.325,
+      "volume": 30966,
+      "open_interest": 1957,
+      "contract_id": 925577829
+    },
+    {
+      "strike": 7675,
+      "expiry": "20261026",
+      "delta": -0.2159,
+      "gamma": 0.00979,
+      "theta": -3.691,
+      "vega": 0.544,
+      "iv_mid": 0.1646,
+      "bid": 3.60,
+      "ask": 3.70,
+      "mid": 3.65,
+      "volume": 13755,
+      "open_interest": 689,
+      "contract_id": 925577867
+    },
+    {
+      "strike": 7700,
+      "expiry": "20261026",
+      "delta": -0.5226,
+      "gamma": 0.01473,
+      "theta": -10.309,
+      "vega": 0.727,
+      "iv_mid": 0.1488,
+      "bid": 11.80,
+      "ask": 12.00,
+      "mid": 11.90,
+      "volume": 6594,
+      "open_interest": 3489,
+      "contract_id": 925577906
+    }
+  ]
+}
