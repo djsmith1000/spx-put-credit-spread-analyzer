@@ -1,0 +1,23 @@
+{
+  "underlying": "GC",
+  "collection_time": "2026-10-27T17:06:00Z",
+  "spot": 4072.7,
+  "expirations_targeted": ["20261027"],
+  "puts": [
+    {
+      "strike": 4070,
+      "expiry": "20261027",
+      "delta": -0.12472033483936094,
+      "gamma": 0.051826420601082876,
+      "theta": -0.24721451548620904,
+      "vega": 0.05690167096676524,
+      "iv": 0.1602828404331358,
+      "bid": 0.8,
+      "ask": 1.2,
+      "mid": 1.0,
+      "volume": 135,
+      "open_interest": 97
+    }
+  ],
+  "note": "Partial; process validated for FOP."
+}

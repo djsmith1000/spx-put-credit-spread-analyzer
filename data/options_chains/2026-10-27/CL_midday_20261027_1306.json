@@ -1,0 +1,37 @@
+{
+  "underlying": "CL",
+  "collection_time": "2026-10-27T17:06:00Z",
+  "spot": 100.0,
+  "expirations_targeted": ["20261027"],
+  "puts": [
+    {
+      "strike": 100,
+      "expiry": "20261027",
+      "delta": -0.48662114268440076,
+      "gamma": 0.6072570987335703,
+      "theta": -0.25335711040689857,
+      "vega": 0.004958334504658712,
+      "iv": 0.5105832524667344,
+      "bid": 0.23,
+      "ask": 0.27,
+      "mid": 0.25,
+      "volume": 555,
+      "open_interest": 529
+    },
+    {
+      "strike": 99.5,
+      "expiry": "20261027",
+      "delta": -0.23053326643724167,
+      "gamma": 0.4349146908077116,
+      "theta": -0.09467851541300921,
+      "vega": 0.0038905007460815627,
+      "iv": 0.5412204229384159,
+      "bid": 0.07,
+      "ask": 0.11,
+      "mid": 0.09,
+      "volume": 154,
+      "open_interest": 62
+    }
+  ],
+  "note": "Partial collection for FOP; deltas in range confirmed."
+}
