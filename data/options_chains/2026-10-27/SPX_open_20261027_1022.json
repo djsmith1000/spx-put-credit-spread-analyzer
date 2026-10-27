@@ -1,0 +1,37 @@
+{
+  "collection_time": "2026-10-27T10:22:00-04:00",
+  "underlying": "SPX",
+  "spot": 7685.48,
+  "qualifying_puts": [
+    {
+      "strike": 7200,
+      "expiry": "20261027",
+      "delta": -1.110276832543925E-16,
+      "gamma": 7.729205290091293E-18,
+      "theta": 0.0,
+      "vega": 5.861982744393487E-13,
+      "iv": null,
+      "bid": null,
+      "ask": 0.05,
+      "mid": null,
+      "volume": 7,
+      "open_interest": 5024,
+      "contract_id": 925794046
+    },
+    {
+      "strike": 7500,
+      "expiry": "20261027",
+      "delta": -0.005224980161863371,
+      "gamma": 0.00021351126866244952,
+      "theta": -0.11711108347986254,
+      "vega": 0.03200591455674129,
+      "iv": 0.3656407282306338,
+      "bid": 0.1,
+      "ask": 0.15,
+      "mid": 0.125,
+      "volume": 214,
+      "open_interest": 3965,
+      "contract_id": 925794198
+    }
+  ]
+}
