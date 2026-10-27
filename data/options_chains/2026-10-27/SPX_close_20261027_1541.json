@@ -1,0 +1,63 @@
+{
+  "collection_time": "2026-10-27T15:41:00-04:00",
+  "underlying": "SPX",
+  "spot": 7727.96,
+  "puts": [
+    {
+      "strike": 7720,
+      "expiry": "20261027",
+      "delta": -0.0476,
+      "gamma": 0.0135,
+      "theta": -0.1448,
+      "vega": 0.0460,
+      "iv": 0.1722,
+      "bid": 0.15,
+      "ask": 0.20,
+      "mid": 0.175,
+      "volume": 161904,
+      "open_interest": 294
+    },
+    {
+      "strike": 7725,
+      "expiry": "20261027",
+      "delta": -0.1259,
+      "gamma": 0.0310,
+      "theta": -0.4182,
+      "vega": 0.0928,
+      "iv": 0.1599,
+      "bid": 0.50,
+      "ask": 0.55,
+      "mid": 0.525,
+      "volume": 114672,
+      "open_interest": 2250
+    },
+    {
+      "strike": 7730,
+      "expiry": "20261027",
+      "delta": -0.3683,
+      "gamma": 0.0572,
+      "theta": -1.6698,
+      "vega": 0.1621,
+      "iv": 0.1553,
+      "bid": 1.60,
+      "ask": 1.70,
+      "mid": 1.65,
+      "volume": 72469,
+      "open_interest": 420
+    },
+    {
+      "strike": 7735,
+      "expiry": "20261027",
+      "delta": -0.6309,
+      "gamma": 0.0568,
+      "theta": -1.6812,
+      "vega": 0.1612,
+      "iv": 0.1524,
+      "bid": 4.00,
+      "ask": 4.20,
+      "mid": 4.10,
+      "volume": 24064,
+      "open_interest": 513
+    }
+  ]
+}
