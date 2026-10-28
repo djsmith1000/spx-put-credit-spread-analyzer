@@ -1,0 +1,7 @@
+{
+  "collection_time": "2026-10-28T14:14:46Z",
+  "underlying": "NDX",
+  "spot": 29706.35,
+  "puts": [],
+  "notes": "Option data retrieval failed for target expirations; spots and parameters resolved. Completeness constrained."
+}

@@ -1,0 +1,22 @@
+{
+  "collection_time": "2026-10-28T14:14:46Z",
+  "underlying": "GC",
+  "spot": 4062.0,
+  "puts": [
+    {
+      "strike": 4060,
+      "expiry": "20261028",
+      "delta": -0.47654531441999937,
+      "gamma": 0.0252979347790259,
+      "theta": -5.871347590991508,
+      "vega": 0.3112829741279386,
+      "iv": 0.19621360436997115,
+      "bid": 5.8,
+      "ask": 6.4,
+      "mid": 6.1,
+      "volume": 47,
+      "open_interest": 10
+    }
+  ],
+  "notes": "Partial 0DTE slice; structures available for other DTEs. Completeness constrained by snapshot volume."
+}
