@@ -1,0 +1,24 @@
+{
+  "collection_time": "2026-10-29T17:07:12Z",
+  "underlying": "GC",
+  "spot": 4012.3,
+  "exchange": "COMEX",
+  "qualifying_puts": [
+    {
+      "strike": 3900,
+      "expiry": "20261103",
+      "delta": -0.0859701801312207,
+      "gamma": 0.0016188885216882273,
+      "theta": -1.4274233955567803,
+      "vega": 0.7994190752449839,
+      "iv": 0.2047981989896731,
+      "bid": 4.0,
+      "ask": 4.4,
+      "mid": 4.2,
+      "volume": 6,
+      "open_interest": 50,
+      "contract_id": 929905315
+    }
+  ],
+  "notes": "Only contracts returning option_greeks with |delta| in 0.08-0.16 included. Many contracts in the strike range did not return Greeks data from IBKR snapshots. Rate limits constrained additional calls. Spot from GCX6 front-month futures."
+}
