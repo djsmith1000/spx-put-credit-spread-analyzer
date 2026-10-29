@@ -1,0 +1,23 @@
+{
+  "collection_time": "2026-10-29T17:03:00-04:00",
+  "spot": 7713.04,
+  "underlying": "SPX",
+  "note": "Collected live via IBKR for 5DTE (20261103) and 7DTE (20261105) SPXW puts with |delta| ~0.08-0.16. Completeness constrained by rate limits (30 req/min); all qualifying within bounds captured where snapshots succeeded.",
+  "qualifying_puts": [
+    {"strike": 7550, "expiry": "20261103", "delta": -0.0809, "gamma": 0.001200, "theta": -1.653, "vega": 1.471, "iv": 0.1363, "bid": 4.7, "ask": 4.8, "mid": 4.75, "volume": 256, "open_interest": 1480},
+    {"strike": 7555, "expiry": "20261103", "delta": -0.0883, "gamma": 0.001297, "theta": -1.755, "vega": 1.565, "iv": 0.1354, "bid": 5.1, "ask": 5.3, "mid": 5.2, "volume": 41, "open_interest": 50},
+    {"strike": 7560, "expiry": "20261103", "delta": -0.0940, "gamma": 0.001368, "theta": -1.831, "vega": 1.633, "iv": 0.1343, "bid": 5.5, "ask": 5.7, "mid": 5.6, "volume": 160, "open_interest": 118},
+    {"strike": 7565, "expiry": "20261103", "delta": -0.0995, "gamma": 0.001437, "theta": -1.903, "vega": 1.699, "iv": 0.1335, "bid": 5.8, "ask": 5.9, "mid": 5.85, "volume": 109, "open_interest": 66},
+    {"strike": 7570, "expiry": "20261103", "delta": -0.1056, "gamma": 0.001510, "theta": -1.979, "vega": 1.769, "iv": 0.1325, "bid": 6.1, "ask": 6.3, "mid": 6.2, "volume": 50, "open_interest": 214},
+    {"strike": 7575, "expiry": "20261103", "delta": -0.1120, "gamma": 0.001586, "theta": -2.060, "vega": 1.841, "iv": 0.1317, "bid": 6.6, "ask": 6.7, "mid": 6.65, "volume": 1888, "open_interest": 238},
+    {"strike": 7580, "expiry": "20261103", "delta": -0.1186, "gamma": 0.001661, "theta": -2.140, "vega": 1.913, "iv": 0.1305, "bid": 7.1, "ask": 7.3, "mid": 7.2, "volume": 90, "open_interest": 254},
+    {"strike": 7585, "expiry": "20261103", "delta": -0.1267, "gamma": 0.001747, "theta": -2.239, "vega": 1.996, "iv": 0.1294, "bid": 7.5, "ask": 7.7, "mid": 7.6, "volume": 69, "open_interest": 65},
+    {"strike": 7590, "expiry": "20261103", "delta": -0.1344, "gamma": 0.001831, "theta": -2.326, "vega": 2.074, "iv": 0.1284, "bid": 8.1, "ask": 8.2, "mid": 8.15, "volume": 245, "open_interest": 234},
+    {"strike": 7595, "expiry": "20261103", "delta": -0.1425, "gamma": 0.001917, "theta": -2.413, "vega": 2.153, "iv": 0.1278, "bid": 8.6, "ask": 8.8, "mid": 8.7, "volume": 28, "open_interest": 68},
+    {"strike": 7600, "expiry": "20261103", "delta": -0.1532, "gamma": 0.002021, "theta": -2.543, "vega": 2.252, "iv": 0.1269, "bid": 9.2, "ask": 9.3, "mid": 9.25, "volume": 470, "open_interest": 1596},
+    {"strike": 7605, "expiry": "20261103", "delta": -0.1618, "gamma": 0.002111, "theta": -2.621, "vega": 2.328, "iv": 0.1261, "bid": 9.8, "ask": 10.0, "mid": 9.9, "volume": 26, "open_interest": 34},
+    {"strike": 7480, "expiry": "20261105", "delta": -0.0833, "gamma": 0.000863, "theta": -1.764, "vega": 1.748, "iv": 0.1650, "bid": 6.7, "ask": 6.9, "mid": 6.8, "volume": 97, "open_interest": 76},
+    {"strike": 7485, "expiry": "20261105", "delta": -0.0875, "gamma": 0.000900, "theta": -1.830, "vega": 1.810, "iv": 0.1630, "bid": 7.1, "ask": 7.2, "mid": 7.15, "volume": 73, "open_interest": 47},
+    {"strike": 7490, "expiry": "20261105", "delta": -0.0910, "gamma": 0.000932, "theta": -1.877, "vega": 1.862, "iv": 0.1630, "bid": 7.3, "ask": 7.5, "mid": 7.4, "volume": 241, "open_interest": 119}
+  ]
+}
