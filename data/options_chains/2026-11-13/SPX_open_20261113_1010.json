@@ -1,1 +1,21 @@
-PLACEHOLDER
+{
+  "collection_time": "2026-11-13T15:10:36Z",
+  "spot": 7572.94,
+  "underlying": "SPX",
+  "qualifying_puts": [
+    {
+      "strike": 7260,
+      "expiry": "2026-11-18",
+      "delta": -0.08234416713740637,
+      "gamma": 0.0007289316395797362,
+      "theta": -2.8126019391652335,
+      "vega": 1.4279870285953393,
+      "iv": 0.2305446769078207,
+      "bid": 8.0,
+      "ask": 8.3,
+      "mid": 8.15,
+      "volume": 113,
+      "open_interest": 283
+    }
+  ]
+}
