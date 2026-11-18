@@ -1,0 +1,17 @@
+{
+  "collection_time": "2026-11-18T10:35:00-05:00",
+  "spot": 7338.34,
+  "qualifying_puts": [
+    {"strike": 7000, "expiry": "2026-11-23", "delta": -0.09366, "gamma": 0.000641, "theta": -3.928, "vega": 1.507, "iv": 0.2993, "bid": 11.0, "ask": 11.3, "mid": 11.15, "volume": 510, "open_interest": 1241},
+    {"strike": 7010, "expiry": "2026-11-23", "delta": -0.09852, "gamma": 0.000672, "theta": -4.053, "vega": 1.563, "iv": 0.2959, "bid": 11.7, "ask": 12.0, "mid": 11.85, "volume": 32, "open_interest": 264},
+    {"strike": 7020, "expiry": "2026-11-23", "delta": -0.10368, "gamma": 0.000704, "theta": -4.182, "vega": 1.621, "iv": 0.2909, "bid": 12.4, "ask": 12.6, "mid": 12.5, "volume": 8, "open_interest": 227},
+    {"strike": 7040, "expiry": "2026-11-23", "delta": -0.11497, "gamma": 0.000772, "theta": -4.453, "vega": 1.742, "iv": 0.2850, "bid": 13.8, "ask": 14.1, "mid": 13.95, "volume": 24, "open_interest": 144},
+    {"strike": 7050, "expiry": "2026-11-23", "delta": -0.12071, "gamma": 0.000806, "theta": -4.581, "vega": 1.802, "iv": 0.2851, "bid": 14.4, "ask": 14.7, "mid": 14.55, "volume": 28, "open_interest": 634},
+    {"strike": 7100, "expiry": "2026-11-23", "delta": -0.15710, "gamma": 0.001009, "theta": -5.327, "vega": 2.145, "iv": 0.2703, "bid": 19.0, "ask": 19.3, "mid": 19.15, "volume": 127, "open_interest": 2038},
+    {"strike": 7000, "expiry": "2026-11-25", "delta": -0.12968, "gamma": 0.000685, "theta": -4.344, "vega": 2.221, "iv": 0.2994, "bid": 19.5, "ask": 19.8, "mid": 19.65, "volume": 154, "open_interest": 283},
+    {"strike": 7010, "expiry": "2026-11-25", "delta": -0.13522, "gamma": 0.000711, "theta": -4.441, "vega": 2.284, "iv": 0.2969, "bid": 20.7, "ask": 21.0, "mid": 20.85, "volume": 41, "open_interest": 15},
+    {"strike": 7040, "expiry": "2026-11-25", "delta": -0.15295, "gamma": 0.000791, "theta": -4.729, "vega": 2.476, "iv": 0.2885, "bid": 23.5, "ask": 23.9, "mid": 23.7, "volume": 3, "open_interest": 77},
+    {"strike": 7050, "expiry": "2026-11-25", "delta": -0.15957, "gamma": 0.000821, "theta": -4.831, "vega": 2.545, "iv": 0.2851, "bid": 24.1, "ask": 24.5, "mid": 24.3, "volume": 21, "open_interest": 1460},
+    {"strike": 7060, "expiry": "2026-11-25", "delta": -0.16678, "gamma": 0.000851, "theta": -4.938, "vega": 2.616, "iv": 0.2837, "bid": 25.8, "ask": 26.2, "mid": 26.0, "volume": 5, "open_interest": 102}
+  ]
+}
