@@ -1,1 +1,34 @@
-PLACEHOLDER
+{
+  "collection_time": "2026-11-19T15:13:25Z",
+  "spot": 7381.72,
+  "puts": [
+    {
+      "strike": 7055,
+      "expiry": "20261124",
+      "delta": -0.0813,
+      "gamma": 0.000634,
+      "theta": -3.188,
+      "vega": 1.376,
+      "iv": 0.2689,
+      "bid": 8.3,
+      "ask": 8.5,
+      "mid": 8.4,
+      "volume": 5,
+      "open_interest": 8
+    },
+    {
+      "strike": 7060,
+      "expiry": "20261124",
+      "delta": -0.0837,
+      "gamma": 0.000651,
+      "theta": -3.250,
+      "vega": 1.405,
+      "iv": 0.2683,
+      "bid": 8.4,
+      "ask": 8.7,
+      "mid": 8.55,
+      "volume": 14,
+      "open_interest": 73
+    }
+  ]
+}
