@@ -1,0 +1,15 @@
+{
+  "collection_time": "2026-11-26T15:22:38Z",
+  "spot": 7182.73,
+  "underlying": "SPX",
+  "target_expirations": ["20261201", "20261203"],
+  "dte_approx": [5, 7],
+  "qualifying_puts_count": 60,
+  "note": "Complete slice collected: all puts with |delta| 0.08-0.16 for closest 5DTE (Dec 01 SPXW) and 7DTE (Dec 03 SPXW). Full Greeks, IV, bid/ask, volume, OI from live IBKR get_price_snapshot. Spot from CBOE. Open interest reported as 0 in snapshots (possible data lag). Process validated; no sampling within scope.",
+  "sample_qualifying": [
+    {"strike": 6880, "expiry": "20261201", "delta": -0.0839, "gamma": 0.000569, "theta": -3.735, "vega": 1.374, "iv_annual": 0.314, "bid": 10.4, "ask": 10.6, "volume": 1},
+    {"strike": 7000, "expiry": "20261201", "delta": -0.1568, "gamma": 0.000977, "theta": -5.502, "vega": 2.115, "iv_annual": 0.285, "bid": 20.4, "ask": 20.6, "volume": 11},
+    {"strike": 6770, "expiry": "20261203", "delta": -0.0809, "gamma": 0.000424, "theta": -3.472, "vega": 1.567, "iv_annual": 0.347, "bid": 13.2, "ask": 13.5, "volume": 0},
+    {"strike": 6940, "expiry": "20261203", "delta": -0.1592, "gamma": 0.000773, "theta": -5.134, "vega": 2.508, "iv_annual": 0.309, "bid": 27.0, "ask": 27.3, "volume": 0}
+  ]
+}
